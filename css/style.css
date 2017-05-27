@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body, html{ margin:0; padding:0; background: url(../images/bg.jpg) repeat-x center top #FFF;}
+.clearleft{ clear:left;}
+.clearboth:after{ clear:both; height:0; content:"."; display:block; visibility:hidden;}
+.fontbold{ font-weight:bold;}
+*{ margin:0; padding:0;}
+a, p, h1, h2, h3, h4, h5, h6 {font-family: Cabin, Nexa, sans-serif; color: #1e1e1e;}
+
+#main_container{ margin-left:auto; margin-right:auto; padding:80px; max-width:1000px; text-align: center;}
+
+.logo{margin: 20px 0; width: 410px;}
+
+.form{margin: 0 auto 50px auto; padding: 0; max-width: 500px;}
+.txtbox{margin: 30px 0; border: none; border-bottom: 1px solid #1e1e1e; width: 100%; height: 32px; line-height: 32px; font-size: 18px; color: #1e1e1e;}
+.form a{margin: 50px 0; padding:10px 20px; border: none; background: #e9292a; width: 60px; height: 40px; text-transform: uppercase; color: #FFF; text-decoration: none; font-size: 14px;}
+.form a:hover{cursor: pointer; background: #ff3738; color: #FFF;}
+a. btn{margin: 40px 0;}
+
+.guideme_content{margin: 20px 0;}
+.guideme_content p{padding:10px 0;}
+.guideme_content a{margin: 10px 20px; text-decoration: none; color: #e9292a;}
+.guideme_content a:hover{text-decoration: underline;}
+
+.listing {margin: 50px auto; padding: 0; width: 500px;}
+.listing a{margin: 40px 0;}
+.place{padding: 20px 0; background: #FFF;}
+.place:hover{padding: 20px 0; background: #DDD;}
+.listing a img{margin: 20px;}
+.listing a p{margin: 20px;}
+
+.gallery {margin: 50px auto; padding: 0; width: 550px;}
+.gallery img{margin: 20px 0;}
+
+.gallery2 {margin: 50px auto; padding: 0; width: 400px;}
+.gallery2 img{margin: 20px 0;}
